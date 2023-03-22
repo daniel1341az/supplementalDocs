@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import '~@angular/cdk/overlay-prebuilt.css';
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  padding: 0;
+  background-color:white;
+}
+
+h1, h2 {
+  text-align: left;
+}
+
+h1 {
+  padding-top: 70px;
+  font-weight: 800px;
+  font-size: 40px;
+  margin: 1.5rem 0;
+
+}
+
+// ...
+h2 {
+  padding-top: 50px;
+  text-decoration: underline;
+  text-align: left;
+  font-weight: 300;
+  font-size: 35px;
+  margin: 1rem 0;
+}
+
+p {
+  line-height: 1.6;
+  font-weight: 300;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+// ...

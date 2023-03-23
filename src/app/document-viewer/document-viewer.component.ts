@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
@@ -22,5 +22,15 @@ export class DocumentViewerComponent implements OnInit {
           this.sidenav.close();
         }
       });
+  }
+
+  scrollToElement(target: string): void {
+    if (!this.isLargeScreen) {
+      this.sidenav.close();
+    }
+    const targetElement = document.querySelector(target) as HTMLElement;
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 }

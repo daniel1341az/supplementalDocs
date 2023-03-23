@@ -5,6 +5,7 @@ mat-toolbar {
 mat-sidenav-container {
   height: 100%;
   position: fixed;
+  overflow: hidden;
 }
 
 mat-sidenav {
@@ -24,30 +25,8 @@ mat-nav-list a {
 }
 
 .content {
-  margin: 0 200px;
+  height: 100%;
+  overflow: auto;
+  padding: 0 200px;
   padding-bottom: 100px;
-}
-
-@media screen and (max-width: 959px) {
-  mat-nav-list a {
-    font-size: 24px;
-    margin-bottom: 30px;
-  }
-
-  .content {
-    margin: 0 50px;
-    padding-bottom: 50px;
-  }
-}
-
-@media screen and (max-width: 599px) {
-  mat-nav-list a {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-
-  .content {
-    margin: 0 15px;
-    padding-bottom: 30px;
-  }
 }

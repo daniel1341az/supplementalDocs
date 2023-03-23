@@ -2,7 +2,6 @@
   <button mat-icon-button (click)="sidenav.toggle()">
     <mat-icon>menu</mat-icon>
   </button>
- testestest
 </mat-toolbar>
 
 <mat-sidenav-container>
@@ -15,24 +14,25 @@
     </mat-nav-list>
   </mat-sidenav>
 
-  <mat-sidenav-content>
-    <div class="content">
-    <div id="valid-medical-prescription">
-      <h1>Valid Medical Prescription</h1>
-      <h2>What is a valid medical prescription?</h2>
-      <p>
-        A valid medical prescription is a written order issued by a licensed medical professional (such as a doctor) to a pharmacist or pharmacy, allowing them to dispense a specific medication to the patient. It includes the patient's name, the medication name, dosage, frequency, and duration of treatment.
-      </p>
-      <h2>How to obtain a valid medical prescription?</h2>
-      <p>
-        To obtain a valid medical prescription, consult with a licensed medical professional in your country of residence. Explain your medical condition and the reason for your travel. The doctor will assess your needs and provide you with a prescription if deemed necessary.
-      </p>
-      <h2>What to expect at the foreign airport?</h2>
-      <p>
-        When you arrive at the foreign airport, have your valid medical prescription ready for inspection by customs officials. Make sure the prescription is clear and legible, and carry it in your carry-on luggage for easy access. Customs officers may ask you questions about your medication and verify the prescription's authenticity before allowing you to proceed.
-      </p>
 
-    </div>
+  <mat-sidenav-content #contentContainer>
+    <div class="content">
+      <div id="valid-medical-prescription">
+        <h1>Valid Medical Prescription</h1>
+        <h2>What is a valid medical prescription?</h2>
+        <p>
+          A valid medical prescription is a written order issued by a licensed medical professional (such as a doctor) to a pharmacist or pharmacy, allowing them to dispense a specific medication to the patient. It includes the patient's name, the medication name, dosage, frequency, and duration of treatment.
+        </p>
+        <h2>How to obtain a valid medical prescription?</h2>
+        <p>
+          To obtain a valid medical prescription, consult with a licensed medical professional in your country of residence. Explain your medical condition and the reason for your travel. The doctor will assess your needs and provide you with a prescription if deemed necessary.
+        </p>
+        <h2>What to expect at the foreign airport?</h2>
+        <p>
+          When you arrive at the foreign airport, have your valid medical prescription ready for inspection by customs officials. Make sure the prescription is clear and legible, and carry it in your carry-on luggage for easy access. Customs officers may ask you questions about your medication and verify the prescription's authenticity before allowing you to proceed.
+        </p>
+
+      </div>
 
       <div id="presentation-original-prescription">
         <h1>Presentation of the original prescription at the Customs of the country of destination</h1>
@@ -50,39 +50,39 @@
         </p>
       </div>
 
-    <div id="doctors-certificate">
-      <h1>Doctor’s Certificate endorsed by the health authorities of the country of residence</h1>
-      <h2>What is a doctor's certificate?</h2>
-      <p>
-        A doctor's certificate, also known as a medical certificate or fit-to-fly certificate, is a document issued by a licensed medical professional confirming the patient's health condition and fitness for travel. It typically includes the patient's name, a brief description of their health condition, and the doctor's assessment of the patient's ability to travel safely.
-      </p>
-      <h2>How to obtain a doctor's certificate?</h2>
-      <p>
-        To obtain a doctor's certificate, schedule an appointment with a licensed medical professional in your country of residence. Inform them about your travel plans and any existing medical conditions. The doctor will perform a medical examination and issue a certificate if they determine that you are fit to travel.
-      </p>
-      <h2>What to expect at the foreign airport?</h2>
-      <p>
-        Upon arrival at the foreign airport, have your doctor's certificate ready for inspection by customs or health officials. They may ask you questions about your health condition and travel plans. The certificate should be endorsed by the health authorities of your country of residence to ensure smooth processing.
-      </p>
-    </div>
+      <div id="doctors-certificate">
+        <h1>Doctor’s Certificate endorsed by the health authorities of the country of residence</h1>
+        <h2>What is a doctor's certificate?</h2>
+        <p>
+          A doctor's certificate, also known as a medical certificate or fit-to-fly certificate, is a document issued by a licensed medical professional confirming the patient's health condition and fitness for travel. It typically includes the patient's name, a brief description of their health condition, and the doctor's assessment of the patient's ability to travel safely.
+        </p>
+        <h2>How to obtain a doctor's certificate?</h2>
+        <p>
+          To obtain a doctor's certificate, schedule an appointment with a licensed medical professional in your country of residence. Inform them about your travel plans and any existing medical conditions. The doctor will perform a medical examination and issue a certificate if they determine that you are fit to travel.
+        </p>
+        <h2>What to expect at the foreign airport?</h2>
+        <p>
+          Upon arrival at the foreign airport, have your doctor's certificate ready for inspection by customs or health officials. They may ask you questions about your health condition and travel plans. The certificate should be endorsed by the health authorities of your country of residence to ensure smooth processing.
+        </p>
+      </div>
 
 
 
-    <div id="health-certificate">
-      <h1>Certificate issued by the health authorities of the country of destination</h1>
-      <h2>What is a certificate from health authorities?</h2>
-      <p>
-        A certificate from health authorities is a document issued by the health department or ministry of the destination country. It verifies that the traveler's medication is allowed in the country and may include information about any restrictions or requirements related to the medication.
-      </p>
-      <h2>How to obtain a certificate from health authorities?</h2>
-      <p>
-        To obtain a certificate from health authorities, contact the health department or ministry of the country you plan to visit. Provide them with details about your medication, valid medical prescription, and doctor's certificate. They may ask for additional information or documentation, such as proof of your medical condition or a letter from your treating physician. Once they have reviewed and approved your documents, they will issue the certificate.
-      </p>
-      <h2>What to expect at the foreign airport?</h2>
-      <p>
-        When you arrive at the foreign airport, present your certificate from health authorities to the customs officials. They may verify the document's authenticity and ask you questions about your medication or medical condition. Ensure that you have all the necessary paperwork and be prepared to answer any questions. Once your documents are verified, you should be allowed to proceed with your medication.
-      </p>
-    </div>
+      <div id="health-certificate">
+        <h1>Certificate issued by the health authorities of the country of destination</h1>
+        <h2>What is a certificate from health authorities?</h2>
+        <p>
+          A certificate from health authorities is a document issued by the health department or ministry of the destination country. It verifies that the traveler's medication is allowed in the country and may include information about any restrictions or requirements related to the medication.
+        </p>
+        <h2>How to obtain a certificate from health authorities?</h2>
+        <p>
+          To obtain a certificate from health authorities, contact the health department or ministry of the country you plan to visit. Provide them with details about your medication, valid medical prescription, and doctor's certificate. They may ask for additional information or documentation, such as proof of your medical condition or a letter from your treating physician. Once they have reviewed and approved your documents, they will issue the certificate.
+        </p>
+        <h2>What to expect at the foreign airport?</h2>
+        <p>
+          When you arrive at the foreign airport, present your certificate from health authorities to the customs officials. They may verify the document's authenticity and ask you questions about your medication or medical condition. Ensure that you have all the necessary paperwork and be prepared to answer any questions. Once your documents are verified, you should be allowed to proceed with your medication.
+        </p>
+      </div>
 
 
     </div>

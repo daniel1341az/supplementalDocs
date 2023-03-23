@@ -27,6 +27,14 @@ mat-nav-list a {
 .content {
   height: 100%;
   overflow: auto;
-  padding: 0 200px;
   padding-bottom: 100px;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+  }
 }

@@ -7,11 +7,12 @@
 <mat-sidenav-container>
   <mat-sidenav #sidenav mode="side" [opened]="isLargeScreen">
     <mat-nav-list>
-      <a mat-list-item href="#valid-medical-prescription">Valid Medical Prescription</a>
-      <a mat-list-item href="#presentation-original-prescription">Presentation of Original Prescription</a>
-      <a mat-list-item href="#doctors-certificate">Doctor's Certificate</a>
-      <a mat-list-item href="#health-certificate">Foreign Destination Certificate</a>
+      <a mat-list-item (click)="scrollToElement('#valid-medical-prescription')">Valid Medical Prescription</a>
+      <a mat-list-item (click)="scrollToElement('#presentation-original-prescription')">Presentation of Original Prescription</a>
+      <a mat-list-item (click)="scrollToElement('#doctors-certificate')">Doctor's Certificate</a>
+      <a mat-list-item (click)="scrollToElement('#health-certificate')">Foreign Destination Certificate</a>
     </mat-nav-list>
+
   </mat-sidenav>
 
 
